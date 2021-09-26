@@ -1,0 +1,48 @@
+<!-- index.html -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="icon" href="QG1.jpg">
+    <link rel="stylesheet" href="css/quiz_css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <ul id="forQ-A" >
+            <label for="s_no" id="s_no"></label>
+            <li>
+                <h4 id="Qus">
+                    <label for="qus" id="qus">Question</label>
+                </h4>
+            </li>
+            <br>
+            <li class="li-label" ><input type="radio" name="a" id="a" class="opt_ans" >
+                <label for="a" id="a1">Answers..!!</label>
+            </li>&nbsp;
+            <li class="li-label"><input type="radio" name="a" id="b" class="opt_ans" >
+                <label for="b" id="b1">Answers..!!</label>
+            </li>&nbsp;
+            <li class="li-label"><input type="radio" name="a" id="c" class="opt_ans" >
+                <label for="c" id="c1">Answers..!!</label>
+            </li>&nbsp;
+            <li class="li-label"><input type="radio" name="a" id="d" class="opt_ans" >
+                <label for="d" id="d1">Answers..!!</label>
+            </li>
+            <br>
+        </ul>
+        <button id="btn" value="submit">Submit</button>
+
+    </div>
+    <div id="scoreBoard">
+        <label id="score" for="score"></label>
+    </div>
+    
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/Quiz_js.js"></script>
+</body>
+
+</html>
