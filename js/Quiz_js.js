@@ -124,6 +124,6 @@ function find_checked()
             }
         }    
         );
-    alert(ans);
+    // alert(ans);
      return ans;  
 }
